@@ -1,0 +1,317 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+* {
+    margin: 0px 0 0 0;
+}
+
+body {
+    /*padding-top: 50px;
+    padding-bottom: 20px;*/
+      background-image:url('../Picture/oee2tausta.jpg');
+      background-size:cover;
+      height: 320px;
+      margin: 0;
+      padding: 0;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+    height: auto;
+    width: 1000px;
+    /*width: 100%;*/
+    margin-left: 15px;
+    min-height: 100%;
+    margin-top: 15px;
+    position: relative;
+    top: 0px;
+    left: 0px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+    text-align: justify;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+    .body-content {
+        padding: 0;
+    }
+}
+.oee{
+    display:table-cell;
+    padding:15px;
+    margin-bottom:30px;
+    font-size:21px;
+    font-weight:200;
+    line-height:2.1428571435;
+    color: inherit;
+    background-color:#eeeeee;
+    margin-left:15px;
+    border-radius: 25px;
+    max-width: 700px;
+    
+    
+}
+.oee h1{
+    line-height:1;
+    color:inherit;
+}
+.oee p {
+  line-height: 1.4;
+    height: 618px;
+    width: 839px;
+}
+.oeer {
+  margin-bottom: 20px;
+  font-size: 16.099999999999998px;
+  font-weight: 200;
+  line-height: 1.4;
+}
+@media (min-width: 768px) {
+  .oeer {
+    font-size: 21px;
+  }
+}
+.availability{
+    
+    
+    padding:30px;
+    margin-bottom:30px;
+    font-size:21px;
+    font-weight:200;
+    line-height:2.1428571435;
+    color: inherit;
+    background-color:#eeeeee;
+    margin-left: 150px;
+    margin-right:30px;
+    position: absolute;
+    top:63px;
+    left: 682px;
+    height: 750px;
+    width: 416px;
+    border-radius: 25px;
+ 
+}
+.availabilityr{
+  margin-bottom: 20px;
+  font-size: 16.099999999999998px;
+  font-weight: 200;
+  line-height: 1.4;
+    height: 133px;
+    width: 258px;
+    
+    border-radius: 25px;
+}
+
+.qualityr{
+    margin-bottom: 20px;
+  font-size: 16.099999999999998px;
+  font-weight: 200;
+  line-height: 1.4;
+    height: 130px;
+    width: 257px;
+    border-radius: 25px;
+}
+
+.performancer{
+       margin-bottom: 20px;
+  font-size: 16.099999999999998px;
+  font-weight: 200;
+  line-height: 1.4;
+    height: 135px;
+    width: 188px;
+    border-radius: 25px;
+}
+
+.MainContentBody {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: 50px;
+  margin-left: 30px;
+  width:1000px;
+  height:1000px;
+}
+
+.adminP{
+  padding: 30px;
+  margin-bottom: 150px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 2.1428571435;
+  color: inherit;
+  background-color: #eeeeee;
+  position:center;
+  margin-right:15px;
+  margin-left:500px;
+  margin-top:150px;
+    height: 311px;
+    width: 454px;
+    border-radius: 25px;
+}
+.InputDataWorker1{
+  /*background-color: rgba(192, 192, 192, 0.5);*/
+  
+}
+
+.InputMachineInfoDiv{
+    position: relative;
+    background-color: rgba(192,192,192,0.5);
+    top:30px;
+    padding-bottom: 40px;
+    height: 709px;
+    left: 0px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-top: 5px;
+
+
+    /*position: absolute;
+    top: 262px;
+    left: 5px;
+    width: 900px;
+    height: 750px;
+    margin-bottom: 60px;
+    background-color: rgba(192,192,192,1);
+    padding: 20px;
+    padding-bottom: 200px;*/
+    
+}
+
+.InputDataWorkerDiv{
+    /*position: absolute;
+    left: 500px;
+    top: 262px;
+    width: 400px;
+    padding: 5px;*/
+    /*background-color: rgba(192,192,192,0.5);*/
+    position: absolute;
+    left: 491px;
+    bottom: 73px;
+    height: 699px;
+    border-radius: 25px;
+    padding-top: 5px;
+    
+}
+
+.MachineInfoManager{
+    /*position: absolute;
+    padding: 5px;
+    top: 220px;
+    width: 600px;*/
+    position: relative;
+    top: 17px;
+    left: 0px;
+    padding-bottom: 20px;
+    border-radius: 25px;
+    background-color: rgba(192,192,192,0.5);
+    padding-left: 10px;
+    padding-top: 5px;
+    height: 975px;
+}
+
+.MachineFaultManager{
+    /*position: absolute;
+    padding: 5px;
+    top: 650px;
+    width:300px;
+    left: 65px;
+    height: 192px;*/
+}
+
+.BreakTypeManager{
+    /*position: absolute;
+    padding: 5px;
+    top: 700px;
+    left: 500px;
+    height: 152px;*/
+}
+
+.WorkerInfoManager{
+    /*position: absolute;
+    padding: 5px;
+    top: 220px;
+    left: 500px;*/
+    /*background-color: rgba(192,192,192,0.5);*/
+    position: absolute;
+    left: 471px;
+    bottom: 177px;
+    padding-top: 5px;
+    height: 873px;
+    width: 584px;
+}
+
+.footer{
+    
+    /*position: absolute;
+    bottom: 0px;
+    left: 0px;*/
+    width: 100%;
+    padding-top: 30px;
+    
+}
+
+.TestSignature{
+   /*position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;*/   /* Height of the footer */
+}
+
+.container body-content{
+   padding-top: 20px;
+    /*margin:0;
+   padding:0;
+   height:100%;
+   padding:10px;
+   padding-bottom:60px;*/ 
+}
+
+
+
+.pagetitle{
+    /*position: absolute;
+    top: 200px;*/
+}
+
+html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+} 
+
+.Wrapper{
+    position: relative;
+    min-height: 100%;
+    margin-bottom: -30px;
+}
+
+.Wrapper:after {
+    content: "";
+    display: block;
+}
+
+.footer, .Wrapper:after {
+  /*height: 30px;*/ 
+}
+
+#BodyContent{
+padding-top: 20px;
+}
